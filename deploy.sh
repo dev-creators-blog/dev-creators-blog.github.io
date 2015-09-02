@@ -22,7 +22,7 @@ if [ "$branch" = "master" ]; then
   git subtree push --prefix=public origin gh-pages 
 
 else
-  echo -e "\033[0;31merror: Current branch is not a gh-pages.\033[0m" 1>&2
+  echo -e "\033[0;31merror: Current branch is not a master.\033[0m" 1>&2
   exit 1
 fi
 
